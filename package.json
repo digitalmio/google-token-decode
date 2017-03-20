@@ -1,0 +1,22 @@
+{
+  "name": "google-token-decode",
+  "version": "1.0.0",
+  "description": "Get Google access_token and returns user details",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://digitalmio@github.com/digitalmio/google-token-decode.git"
+  },
+  "author": "Maciej Ziehlke mac@dmio.co",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/digitalmio/google-token-decode/issues"
+  },
+  "homepage": "https://github.com/digitalmio/google-token-decode#readme",
+  "dependencies": {
+    "superagent": "^3.5.1"
+  }
+}
