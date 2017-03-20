@@ -1,5 +1,5 @@
 # google-token-decode
-Get Google access_token and returns user details
+Get Google access_token and return user details
 
 ### Why?
 You might find this useful when user gets authenticated on other device and all you need to do is just get his email and name, ie. user logs in on mobile, you need to register local account on server.
@@ -11,7 +11,7 @@ npm i google-token-decode
 
 ### Usage
 ```
-const gtd = reqiore('google-token-decode');
+const gtd = require('google-token-decode');
 
 gtd.getData("yourToken", (err, data) => {
   // your logic here
